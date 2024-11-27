@@ -1,6 +1,6 @@
 package it.unibo.collections.sets;
 
-import java.util.Collection;
+//import java.util.Collection;
 import java.util.TreeSet;
 
 /**
