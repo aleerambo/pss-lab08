@@ -31,10 +31,14 @@ public final class UseSetWithOrder {
          * 2) Inserts in the set a hundred strings containing randomly generated numbers
          * (use Math.random(), and convert to String appropriately)
          */
+        for(int i=0; i<100; i++) {
+            set.add(String.valueOf(Math.random()));
+        }
 
         
         /*
          * 3) Prints the set, which must be ordered
          */
+        System.out.println(set);
     }
 }
